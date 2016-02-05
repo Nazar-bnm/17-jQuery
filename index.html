@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+	<form action="#">
+		<div class="row" id="wrapper-user-name">
+			<label>Your name:</label>
+			<input type="text" name="name" id="user-name" value="" placeholder="5 to 30 letters" validate-required="checked" validate-minlength="5" validate-maxlength="30"/>
+			<span id="error-name"></span>
+		</div>
+		<div class="row" id="wrapper-email">
+			<label>Your email:</label>
+			<input type="email" name="email" id="email"value="" placeholder="example@mail.com" validate-required="checked"/>
+			<span id="error-email"></span>
+		</div>
+		<div class="row" id="wrapper-date">
+			<label>Date:</label>
+			<input type="text" name="date" id="date" value="" placeholder="dd.mm.yyyy" validate-required="checked"/>
+			<span id="error-date"></span>
+		</div>
+		<div class="row" id="wrapper-ip">
+			<label>IP adress:</label>
+			<input type="text" name="ip" id="ip" value="" validate-regexp="^\d+\.\d+\.\d+\.\d+$" validate-required="checked"/>
+			<span id="error-ip"></span>
+		</div>
+		<div class="row">
+			<input type="submit" value="Send" id="submit">
+		</div>
+	</form>
+	<div class="wrapper-link">
+		<a href="timer.html">Timer</a>
+	</div>
+	<em alt="#"></em>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="js/underscore.js"></script>
+	<script src="js/form.js"></script>
+</body>
+</html>

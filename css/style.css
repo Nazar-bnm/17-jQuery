@@ -1,0 +1,42 @@
+/* styles form */
+.error {
+	color: red;
+}
+
+.not-error {
+	color: black;
+}
+
+.row {
+	margin-bottom: 10px;
+}
+
+.wrapper-link {
+	margin: 50px 20px;
+}
+
+/* styles timer */
+
+.time {
+	margin: 12px;
+	font-size: 5em;
+	color: white;
+	background: #454442;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.time-sing {
+	font-size: 110px;
+	color: #454442;
+
+}
+
+.wrapper-timer {
+	width: 740px;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid black;
+	background: #B6B9BE;
+}
+
